@@ -1,26 +1,24 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function LandingPage() {
+export default function Home() {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gray-50">
+    <div className="min-h-screen flex flex-col bg-gray-50">
       
       {/* Header */}
-      <header className="w-full p-6 flex justify-between items-center bg-white shadow">
+      <header className="w-full p-6 flex justify-between items-center bg-white shadow sticky top-0">
         <Link href="/">
           <Image src="/logo.svg" alt="Logo" width={100} height={50} className="cursor-pointer" />
         </Link>
         <nav>
-          <Link href="/dashboard">
-            <a className="bg-blue-600 text-white py-2 px-4 rounded-lg">
-              Get Started
-            </a>
+          <Link href="/dashboard" className="bg-blue-600 text-white py-2 px-4 rounded-lg">
+            Get Started
           </Link>
         </nav>
       </header>
       
-      {/* Main Section */}
-      <main className="flex flex-col items-center text-center mt-12 px-4">
+      {/* Main Content */}
+      <main className="flex-grow flex flex-col items-center justify-center text-center mt-12 px-4">
         <h1 className="text-5xl font-bold text-gray-900">
           AI Content <span className="text-blue-600">Generator</span>
         </h1>
@@ -28,10 +26,8 @@ export default function LandingPage() {
           Revolutionize your content creation with our AI-powered app, delivering engaging and high-quality text in seconds.
         </p>
         <div className="mt-8">
-          <Link href="/dashboard">
-            <a className="bg-blue-600 text-white py-3 px-8 rounded-lg text-lg">
-              Get Started
-            </a>
+          <Link href="/dashboard" className="bg-blue-600 text-white py-3 px-8 rounded-lg text-lg">
+            Get Started
           </Link>
         </div>
       </main>
@@ -42,28 +38,28 @@ export default function LandingPage() {
           <h3 className="text-2xl font-semibold">25+ templates</h3>
           <p className="mt-4 text-gray-600">Responsive and mobile-first project on the web.</p>
           <Link href="#">
-            <a className="text-blue-600 mt-4 inline-block">Learn more</a>
+            Learn more
           </Link>
         </div>
         <div className="bg-white p-6 rounded-lg shadow text-center">
           <h3 className="text-2xl font-semibold">Customizable</h3>
           <p className="mt-4 text-gray-600">Components are easily customized and extendable.</p>
           <Link href="#">
-            <a className="text-blue-600 mt-4 inline-block">Learn more</a>
+            Learn more
           </Link>
         </div>
         <div className="bg-white p-6 rounded-lg shadow text-center">
           <h3 className="text-2xl font-semibold">Free to Use</h3>
           <p className="mt-4 text-gray-600">Every component and plugin is well documented.</p>
           <Link href="#">
-            <a className="text-blue-600 mt-4 inline-block">Learn more</a>
+            Learn more
           </Link>
         </div>
         <div className="bg-white p-6 rounded-lg shadow text-center">
           <h3 className="text-2xl font-semibold">24/7 Support</h3>
           <p className="mt-4 text-gray-600">Contact us 24 hours a day, 7 days a week.</p>
           <Link href="#">
-            <a className="text-blue-600 mt-4 inline-block">Learn more</a>
+            Learn more
           </Link>
         </div>
       </section>
