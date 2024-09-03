@@ -25,7 +25,7 @@ export default function Home() {
 
         <div className="mt-6">
           <Button>
-            <Link href="/subscribe">Subscribe</Link>
+            <Link href="/dashboard">Dashboard</Link>
           </Button>
         </div>
       </main>
