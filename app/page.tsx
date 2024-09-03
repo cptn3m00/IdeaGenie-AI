@@ -11,7 +11,7 @@ export default function Home() {
           <Image src="/logo.svg" alt="Logo" width={100} height={50} className="cursor-pointer" />
         </Link>
         <nav>
-          <Link href="/dashboard" className="bg-blue-600 text-white py-2 px-4 rounded-lg">
+          <Link href="/dashboard" className="bg-violet-500 text-white py-2 px-4 rounded-lg">
             Get Started
           </Link>
         </nav>
@@ -20,13 +20,13 @@ export default function Home() {
       {/* Main Content */}
       <main className="flex-grow flex flex-col items-center justify-center text-center mt-12 px-4">
         <h1 className="text-5xl font-bold text-gray-900">
-          IdeaGenie AI - <span className="text-blue-600">Content Generator</span>
+          IdeaGenie AI - <span className="text-violet-500">Content Generator</span>
         </h1>
         <p className="mt-4 text-xl text-gray-700 max-w-xl">
           Revolutionize your content creation with our AI-powered app, delivering engaging and high-quality text in seconds.
         </p>
         <div className="mt-8">
-          <Link href="/dashboard" className="bg-blue-600 text-white py-3 px-8 rounded-lg text-lg">
+          <Link href="/dashboard" className="bg-violet-500 text-white py-3 px-8 rounded-lg text-lg">
             Get Started
           </Link>
         </div>
@@ -65,7 +65,7 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="w-full p-6 bg-gray-800 text-white text-center mt-16">
+      <footer className="w-full p-6 bg-gray-600 text-white text-center mt-16">
         <p>&copy; {new Date().getFullYear()} My App. All rights reserved.</p>
       </footer>
     </div>
