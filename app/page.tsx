@@ -20,7 +20,7 @@ export default function Home() {
       {/* Main Content */}
       <main className="flex-grow flex flex-col items-center justify-center text-center mt-12 px-4">
         <h1 className="text-5xl font-bold text-gray-900">
-          AI Content <span className="text-blue-600">Generator</span>
+          IdeaGenie AI - <span className="text-blue-600">Content Generator</span>
         </h1>
         <p className="mt-4 text-xl text-gray-700 max-w-xl">
           Revolutionize your content creation with our AI-powered app, delivering engaging and high-quality text in seconds.
